@@ -1,7 +1,8 @@
 
 #electronics-body {
 	background: #e2eaef;
-	font-family: "Open Sans", sans-serif;
+  font-family: "Open Sans", sans-serif;
+  margin: 30px;
 }
 #electronics-body h2 {
 	color: #000;
