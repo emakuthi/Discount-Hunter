@@ -1,0 +1,83 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+/* .section6 {
+  text-align: center;
+  background-image: url("../img/slider7.jpg");
+  background-size: cover;
+  overflow: hidden;
+  color: white;
+  font-size: 20px;
+  margin-left: -10%;
+  margin-right: -10%;
+  padding: 80px;
+  margin-top: 20px;
+} */
+
+.form-group {
+  width: 60%;
+  margin: auto;
+}
+
+/* .section6 p {
+  font-size: 30px;
+} */
+
+/* input[type=email] {
+  background-color: rgba(255, 255, 255, 0.4);
+  font-size: 16px;
+} */
+/* 
+input[type=button] {
+  background-color: #f15a;
+  color: white;
+  font-size: 16px;
+} */
+
+.form-control {
+  border: 0;
+  border-radius: 2px;
+}
+
+.form-control::-moz-placeholder {
+  color: white;
+  opacity: 1;
+}
+
+.form-control:-ms-input-placeholder {
+  color: white;
+}
+
+.form-control::-webkit-input-placeholder {
+  color: white;
+}
+
+#output {
+  font-size: 20px;
+}
+
+/* .footer .fa {
+  margin-right: 15px;
+  margin-left: 15px;
+} */
+
+/* .subscribe {
+  text-align: center;
+  background-image: url("../img/slider7.jpg");
+  background-size: cover;
+  color: whitesmoke;
+} */
+
+.mailchimp {
+  text-align: center;
+  color: whitesmoke;
+  background-image: url("../img/slider7.jpg");
+  background-size: cover;
+  margin-left: -10%;
+  margin-right: -10%;
+  
+
+
+}
