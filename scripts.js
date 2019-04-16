@@ -6,6 +6,12 @@ function closeNav() {
     document.getElementById("mySidenav").style.width = "0";
   }
 
+$(document).ready(function(){
+		$(".wish-icon i").click(function(){
+			$(this).toggleClass("fa-heart fa-heart-o");
+	});
+});	
+
 /*  function myFunction() {
     document.getElementById("myDropdown").classList.toggle("show");
   }
