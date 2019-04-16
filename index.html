@@ -1,20 +1,17 @@
 <!DOCTYPE html>
-<html>
+<html lang>
   <head>
     <title>Discount Hunter</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- css -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href="bootstrap-theme.css" rel="stylesheet" type="text/css">
     <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
-    <link href="bootstrap.css" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="styles.css" type="text/css">
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="   crossorigin="anonymous"></script>
-    <script src="scripts.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css" type="text/css">
+    <link rel="stylesheet" href="styles2.css" type="text/css">  
   </head>
   <body>
     <div class="saleHunter">
@@ -84,8 +81,45 @@
             </ul>
         </div>
         <div class="adverts">
-            <div id="myCarousel" class="carousel slide" data-ride="carousel">
-                        <!-- Indicators -->
+            <div id="advertisements">
+                <div id="myAdverts" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#myAdverts" data-slide-to="0" class="active"></li>
+                        <li data-target="#myAdverts" data-slide-to="1"></li>
+                        <li data-target="#myAdverts" data-slide-to="2"></li>
+                        <li data-target="#myAdverts" data-slide-to="3"></li>
+                    </ol>                            
+                    <div class="carousel-inner">
+                        <div class="item active">
+                            <img src="images/Girl-shoe.jpg" alt="girl shoes" style="width:100%; height: 500px;">
+                        </div>
+                                        
+                        <div class="item">
+                            <img src="images/beef burger.jpg" alt="food ads" style="width:100%; height: 500px;">
+                        </div>
+                                            
+                        <div class="item">
+                            <img src="images/cars.jpg" alt="car sales" style="width:100%; height: 500px;">
+                        </div>
+                        <div class="item">
+                            <img src="images/workshop-tools.jpg" alt="workshop tools" style="width:100%; height: 500px;">
+                        </div>                           
+                        <a class="left carousel-control" href="#myAdverts" data-slide="prev">
+                            <span class="glyphicon glyphicon-chevron-left"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="right carousel-control" href="#myAdverts" data-slide="next">
+                            <span class="glyphicon glyphicon-chevron-right"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </div>  
+                   
+    <!--   <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                       
                 <ol class="carousel-indicators">
                     <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
                     <li data-target="#myCarousel" data-slide-to="1"></li>
@@ -93,7 +127,7 @@
                     <li data-target="#myCarousel" data-slide-to="3"></li>
                 </ol>
                     
-                        <!-- Wrapper for slides -->
+                        
                 <div class="carousel-inner">
                     <div class="item active">
                         <img src="images/Girl-shoe.jpg" alt="girl shoes" style="width:100%; height: 500px;">
@@ -111,7 +145,7 @@
                     </div>
                 </div>
                     
-                        <!-- Left and right controls -->
+                   
                 <a class="left carousel-control" href="#myCarousel" data-slide="prev">
                     <span class="glyphicon glyphicon-chevron-left"></span>
                     <span class="sr-only">Previous</span>
@@ -120,9 +154,9 @@
                     <span class="glyphicon glyphicon-chevron-right"></span>
                     <span class="sr-only">Next</span>
                 </a>
-            </div>
+            </div>-->
            
-        </div>
+       
         <div class="advertItems"><h3>Adverts Items</h3></div>
         <div class="movingAdvert">
             <h3>Moving Advert</h3>
@@ -136,6 +170,308 @@
              <!--    <div class="col-md-1"> --> 
                 <div class="col-md-10">
                     <hr>
+                </div>
+                <div id="onlyElectronics">
+                        <div class="container">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div id="myElectronics" class="carousel slide" data-ride="carousel" data-interval="0">
+                                        <!-- Carousel indicators -->
+                                        <ol class="carousel-indicators">
+                                            <li data-target="#myElectronics" data-slide-to="0" class="active"></li>
+                                            <li data-target="#myElectronics" data-slide-to="1"></li>
+                                            <li data-target="#myElectronics" data-slide-to="2"></li>
+                                        </ol>   
+                                        <!-- Wrapper for carousel items -->
+                                        <div class="carousel-inner">
+                                            <div class="item carousel-item active">
+                                                <div class="row">
+                                                    <div class="col-sm-3">
+                                                        <div class="thumb-wrapper">
+                                                            <span class="wish-icon"><i class="fa fa-heart-o"></i></span>
+                                                            <div class="img-box">
+                                                                <img src="images/apple-iphone-6-1.jpg" class="img-responsive img-fluid" alt="">									
+                                                            </div>
+                                                            <div class="thumb-content">
+                                                                <h4>Apple phone</h4>									
+                                                                <div class="star-rating">
+                                                                    <ul class="list-inline">
+                                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                                        <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                                                                    </ul>
+                                                                </div>
+                                                                <p class="item-price"><strike>ksh.40000.00</strike> <b>ksh.36900.00</b></p>
+                                                                <a href="https://www.masoko.com/" class="btn btn-primary">contact supplier</a>
+                                                            </div>						
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-sm-3">
+                                                        <div class="thumb-wrapper">
+                                                            <span class="wish-icon"><i class="fa fa-heart-o"></i></span>
+                                                            <div class="img-box">
+                                                                <img src="images/sony_earphones.jpg" class="img-responsive img-fluid" alt="">
+                                                            </div>
+                                                            <div class="thumb-content">
+                                                                <h4>Sony Headphone</h4>									
+                                                                <div class="star-rating">
+                                                                    <ul class="list-inline">
+                                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                                        <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                                                                    </ul>
+                                                                </div>
+                                                                <p class="item-price"><strike>ksh.2500.00</strike> <b>ksh.2300.99</b></p>
+                                                                <a href="https://www.masoko.com/" class="btn btn-primary">contact supplier</a>
+                                                            </div>						
+                                                        </div>
+                                                    </div>		
+                                                    <div class="col-sm-3">
+                                                        <div class="thumb-wrapper">
+                                                            <span class="wish-icon"><i class="fa fa-heart-o"></i></span>
+                                                            <div class="img-box">
+                                                                <img src="images/macbook-air.jpg" class="img-responsive img-fluid" alt="">
+                                                            </div>
+                                                            <div class="thumb-content">
+                                                                <h4>Macbook Air</h4>									
+                                                                <div class="star-rating">
+                                                                    <ul class="list-inline">
+                                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                                        <li class="list-inline-item"><i class="fa fa-star-half-o"></i></li>
+                                                                    </ul>
+                                                                </div>
+                                                                <p class="item-price"><strike>$89900.00</strike> <b>$64900.00</b></p>
+                                                                <a href="https://www.masoko.com/" class="btn btn-primary">contact supplier</a>
+                                                            </div>						
+                                                        </div>
+                                                    </div>								
+                                                    <div class="col-sm-3">
+                                                        <div class="thumb-wrapper">
+                                                            <span class="wish-icon"><i class="fa fa-heart-o"></i></span>
+                                                            <div class="img-box">
+                                                                <img src="images/nikon_camera.jpg" class="img-responsive img-fluid" alt="">
+                                                            </div>
+                                                            <div class="thumb-content">
+                                                                <h4>Nikon DSLR</h4>									
+                                                                <div class="star-rating">
+                                                                    <ul class="list-inline">
+                                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                                        <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                                                                        <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                                                                    </ul>
+                                                                </div>
+                                                                <p class="item-price"><strike>ksh.31500.00</strike> <b>ksh.25000.00</b></p>
+                                                                <a href="https://www.masoko.com/" class="btn btn-primary">contact supplier</a>
+                                                            </div>						
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="item carousel-item">
+                                                <div class="row">
+                                                    <div class="col-sm-3">
+                                                        <div class="thumb-wrapper">
+                                                            <span class="wish-icon"><i class="fa fa-heart-o"></i></span>
+                                                            <div class="img-box">
+                                                                <img src="images/sony-playstation.jpg" class="img-responsive img-fluid" alt="">
+                                                            </div>
+                                                            <div class="thumb-content">
+                                                                <h4>Sony Play Station</h4>
+                                                                <p class="item-price"><strike>ksh.28900.00</strike> <span>ksh.26900.00</span></p>
+                                                                <div class="star-rating">
+                                                                    <ul class="list-inline">
+                                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                                        <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                                                                    </ul>
+                                                                </div>
+                                                                <a href="https://www.masoko.com/" class="btn btn-primary">contact supplier</a>
+                                                            </div>						
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-sm-3">
+                                                        <div class="thumb-wrapper">
+                                                            <span class="wish-icon"><i class="fa fa-heart-o"></i></span>
+                                                            <div class="img-box">
+                                                                <img src="images/Macbook-Pro.jpg" class="img-responsive img-fluid" alt="">
+                                                            </div>
+                                                            <div class="thumb-content">
+                                                                <h4>Macbook Pro</h4>
+                                                                <p class="item-price"><strike>ksh.109900.00</strike> <span>ksh.86900.00</span></p>
+                                                                <div class="star-rating">
+                                                                    <ul class="list-inline">
+                                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                                        <li class="list-inline-item"><i class="fa fa-star-half-o"></i></li>
+                                                                    </ul>
+                                                                </div>
+                                                                <a href="https://www.masoko.com/" class="btn btn-primary">contact supplier</a>
+                                                            </div>						
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-sm-3">
+                                                        <div class="thumb-wrapper">
+                                                            <span class="wish-icon"><i class="fa fa-heart-o"></i></span>
+                                                            <div class="img-box">
+                                                                <img src="images/bose-speaker.jpg" class="img-responsive img-fluid" alt="">
+                                                            </div>
+                                                            <div class="thumb-content">
+                                                                <h4>Bose Speaker</h4>
+                                                                <p class="item-price"><strike>ksh.10900.00</strike> <span>ksh.9900.00</span></p>
+                                                                <div class="star-rating">
+                                                                    <ul class="list-inline">
+                                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                                        <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                                                                    </ul>
+                                                                </div>
+                                                                <a href="https://www.masoko.com/" class="btn btn-primary">contact supplier</a>
+                                                            </div>						
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-sm-3">
+                                                        <div class="thumb-wrapper">
+                                                            <span class="wish-icon"><i class="fa fa-heart-o"></i></span>
+                                                            <div class="img-box">
+                                                                <img src="images/samsung-s8.jpg" class="img-responsive img-fluid" alt="">
+                                                            </div>
+                                                            <div class="thumb-content">
+                                                                <h4>Samsung Galaxy S8</h4>
+                                                                <p class="item-price"><strike>ksh.59900.00</strike> <span>ksh.56900.00</span></p>
+                                                                <div class="star-rating">
+                                                                    <ul class="list-inline">
+                                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                                        <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                                                                    </ul>
+                                                                </div>
+                                                                <a href="https://www.masoko.com/" class="btn btn-primary">contact supplier</a>
+                                                            </div>						
+                                                        </div>
+                                                    </div>						
+                                                </div>
+                                            </div>
+                                            <div class="item carousel-item">
+                                                <div class="row">
+                                                    <div class="col-sm-3">
+                                                        <div class="thumb-wrapper">
+                                                            <span class="wish-icon"><i class="fa fa-heart-o"></i></span>
+                                                            <div class="img-box">
+                                                                <img src="images/apple-iphone-6-1.jpg" class="img-responsive img-fluid" alt="">
+                                                            </div>
+                                                            <div class="thumb-content">
+                                                                <h4>Apple iPhone</h4>
+                                                                <p class="item-price"><strike>ksh.36900.00</strike> <span>ksh.34900.00</span></p>
+                                                                <div class="star-rating">
+                                                                    <ul class="list-inline">
+                                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                                        <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                                                                    </ul>
+                                                                </div>
+                                                                <a href="https://www.masoko.com/" class="btn btn-primary">contact supplier</a>
+                                                            </div>						
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-sm-3">
+                                                        <div class="thumb-wrapper">
+                                                            <span class="wish-icon"><i class="fa fa-heart-o"></i></span>
+                                                            <div class="img-box">
+                                                                <img src="images/cannon-img.jpg" class="img-responsive img-fluid" alt="">
+                                                            </div>
+                                                            <div class="thumb-content">
+                                                                <h4>Canon DSLR</h4>
+                                                                <p class="item-price"><strike>ksh.31500.00</strike> <span>ksh.25000.00</span></p>
+                                                                <div class="star-rating">
+                                                                    <ul class="list-inline">
+                                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                                        <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                                                                    </ul>
+                                                                </div>
+                                                                <a href="https://www.masoko.com/" class="btn btn-primary">contact supplier</a>
+                                                            </div>						
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-sm-3">
+                                                        <div class="thumb-wrapper">
+                                                            <span class="wish-icon"><i class="fa fa-heart-o"></i></span>
+                                                            <div class="img-box">
+                                                                <img src="images/google-pixel.jpg" class="img-responsive img-fluid" alt="">
+                                                            </div>
+                                                            <div class="thumb-content">
+                                                                <h4>Google Pixel</h4>
+                                                                <p class="item-price"><strike>ksh.45000.00</strike> <span>ksh.41800.00</span></p>
+                                                                <div class="star-rating">
+                                                                    <ul class="list-inline">
+                                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                                        <li class="list-inline-item"><i class="fa fa-star-half-o"></i></li>
+                                                                    </ul>
+                                                                </div>
+                                                                <a href="https://www.masoko.com/" class="btn btn-primary">contact supplier</a>
+                                                            </div>						
+                                                        </div>
+                                                    </div>	
+                                                    <div class="col-sm-3">
+                                                        <div class="thumb-wrapper">
+                                                            <span class="wish-icon"><i class="fa fa-heart-o"></i></span>
+                                                            <div class="img-box">
+                                                                <img src="images/apple-watch.jpg" class="img-responsive img-fluid" alt="">
+                                                            </div>
+                                                            <div class="thumb-content">
+                                                                <h4>Apple Watch</h4>
+                                                                <p class="item-price"><strike>ksh.35000.00</strike> <span>ksh.33000.00</span></p>
+                                                                <div class="star-rating">
+                                                                    <ul class="list-inline">
+                                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                                        <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                                                                    </ul>
+                                                                </div>
+                                                                <a href="https://www.masoko.com/" class="btn btn-primary">contact supplier</a>
+                                                            </div>						
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- Carousel controls -->
+                                        <a class="carousel-control left carousel-control-prev" href="#myElectronics" data-slide="prev">
+                                            <i class="fa fa-angle-left"></i>
+                                        </a>
+                                        <a class="carousel-control right carousel-control-next" href="#myElectronics" data-slide="next">
+                                            <i class="fa fa-angle-right"></i>
+                                        </a>
+                                    </div>
+                                    </div>
+                                </div>
+                            </div>
                 </div>
             </div>
             
@@ -160,8 +496,310 @@
                 <div class="col-md-10">
                     <hr>
                 </div>
+
+                <div id="beautyProducts">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div id="myBeauty" class="carousel slide" data-ride="carousel" data-interval="0">
+                                <ol class="carousel-indicators">
+                                    <li data-target="#myBeauty" data-slide-to="0" class="active"></li>
+                                    <li data-target="#myBeauty" data-slide-to="1"></li>
+                                    <li data-target="#myBeauty" data-slide-to="2"></li>
+                                </ol>   
+                              
+                                <div class="carousel-inner">
+                                    <div class="item carousel-item active">
+                                        <div class="row">
+                                            <div class="col-md-3">
+                                                <div class="thumb-wrapper">
+                                                    <span class="wish-icon"><i class="fa fa-heart-o"></i></span>
+                                                    <div class="img-box">
+                                                        <img src="images/beauty1.jpg" class="img-responsive img-fluid" alt="">									
+                                                    </div>
+                                                    <div class="thumb-content">
+                                                        <h4>Clarins Serum</h4>									
+                                                        <div class="star-rating">
+                                                            <ul class="list-inline">
+                                                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                                <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                                                            </ul>
+                                                        </div>
+                                                        <p class="item-price"><strike>Kshs 10,000 </strike> <b>8,500 Kshs</b></p>
+                                                        <a href="https://www.masoko.com/" class="btn btn-primary">contact supplier</a>
+                                                    </div>						
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <div class="thumb-wrapper">
+                                                    <span class="wish-icon"><i class="fa fa-heart-o"></i></span>
+                                                    <div class="img-box">
+                                                        <img src="images/beauty3.jpg" class="img-responsive img-fluid" alt="">
+                                                    </div>
+                                                    <div class="thumb-content">
+                                                        <h4>Dior Serum</h4>									
+                                                        <div class="star-rating">
+                                                            <ul class="list-inline">
+                                                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                                <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                                                            </ul>
+                                                        </div>
+                                                        <p class="item-price"><strike>Kshs 14,000</strike> <b>10,000 Kshs</b></p>
+                                                        <a href="https://www.masoko.com/" class="btn btn-primary">contact supplier</a>
+                                                    </div>						
+                                                </div>
+                                            </div>		
+                                            <div class="col-md-3">
+                                                <div class="thumb-wrapper">
+                                                    <span class="wish-icon"><i class="fa fa-heart-o"></i></span>
+                                                    <div class="img-box">
+                                                        <img src="images/lamer.jpg" class="img-responsive img-fluid" alt="">
+                                                    </div>
+                                                    <div class="thumb-content">
+                                                        <h4>La Mer Serum </h4>									
+                                                        <div class="star-rating">
+                                                            <ul class="list-inline">
+                                                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                                <li class="list-inline-item"><i class="fa fa-star-half-o"></i></li>
+                                                            </ul>
+                                                        </div>
+                                                        <p class="item-price"><strike>Kshs 25,000 </strike> <b>23,000 Kshs</b></p>
+                                                        <a href="https://www.masoko.com/" class="btn btn-primary">contact supplier</a>
+                                                    </div>						
+                                                </div>
+                                            </div>								
+                                            <div class="col-md-3">
+                                                <div class="thumb-wrapper">
+                                                    <span class="wish-icon"><i class="fa fa-heart-o"></i></span>
+                                                    <div class="img-box">
+                                                        <img src="images/beauty7.jpg" class="img-responsive img-fluid" alt="">
+                                                    </div>
+                                                    <div class="thumb-content">
+                                                        <h4>Lancome Serum</h4>									
+                                                        <div class="star-rating">
+                                                            <ul class="list-inline">
+                                                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                                <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                                                                <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                                                            </ul>
+                                                        </div>
+                                                        <p class="item-price"><strike>Kshs 14,000</strike> <b>8,500 Kshs</b></p>
+                                                        <a href="https://www.masoko.com/" class="btn btn-primary">contact supplier</a>
+                                                    </div>						
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item carousel-item">
+                                        <div class="row">
+                                            <div class="col-md-3">
+                                                <div class="thumb-wrapper">
+                                                    <span class="wish-icon"><i class="fa fa-heart-o"></i></span>
+                                                    <div class="img-box">
+                                                        <img src="images/mademoiselle.jpg" class="img-responsive img-fluid" alt="">
+                                                    </div>
+                                                    <div class="thumb-content">
+                                                        <h4>MADEMOISELLE</h4>
+                                                        <p class="item-price"><strike>Kshs 13, 000</strike> <span>10,000Kshs</span></p>
+                                                        <div class="star-rating">
+                                                            <ul class="list-inline">
+                                                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                                <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                                                            </ul>
+                                                        </div>
+                                                        <a href="https://www.chanel.com/us/fragrance/p/116630/coco-mademoiselle-eau-de-parfum-intense-spray/" class="btn btn-primary">contact supplier</a>
+                                                    </div>						
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <div class="thumb-wrapper">
+                                                    <span class="wish-icon"><i class="fa fa-heart-o"></i></span>
+                                                    <div class="img-box">
+                                                            <img src="images/noir.jpg" class="img-responsive img-fluid" alt="">
+                                                    </div>
+                                                    <div class="thumb-content">
+                                                        <h4>COCO NOIR</h4>
+                                                        <p class="item-price"><strike>Kshs 21,000.00</strike> <span>15,000.00 Kshs</span></p>
+                                                        <div class="star-rating">
+                                                            <ul class="list-inline">
+                                                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                                <li class="list-inline-item"><i class="fa fa-star-half-o"></i></li>
+                                                            </ul>
+                                                        </div>
+                                                        <a href="https://www.chanel.com/us/fragrance/p/113620/coco-noir-eau-de-parfum-spray/" class="btn btn-primary">contact supplier</a>
+                                                    </div>						
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <div class="thumb-wrapper">
+                                                    <span class="wish-icon"><i class="fa fa-heart-o"></i></span>
+                                                    <div class="img-box">
+                                                        <img src="images/no5.jpg" class="img-responsive img-fluid" alt="">
+                                                    </div>
+                                                    <div class="thumb-content">
+                                                        <h4>CHANEL No. 5</h4>
+                                                        <p class="item-price"><strike>Kshs 13,500 </strike> <span>10,000 Kshs</span></p>
+                                                        <div class="star-rating">
+                                                            <ul class="list-inline">
+                                                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                                <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                                                            </ul>
+                                                        </div>
+                                                        <a href="https://www.chanel.com/us/fragrance/p/125530/n5-eau-de-parfum-spray/" class="btn btn-primary">contact supplier</a>
+                                                    </div>						
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <div class="thumb-wrapper">
+                                                    <span class="wish-icon"><i class="fa fa-heart-o"></i></span>
+                                                    <div class="img-box">
+                                                        <img src="images/no19.jpg" class="img-responsive img-fluid" alt="">
+                                                    </div>
+                                                    <div class="thumb-content">
+                                                        <h4>CHANEL No.19</h4>
+                                                        <p class="item-price"><strike>Kshs 13,500.00</strike> <span>10,000 Kshs</span></p>
+                                                        <div class="star-rating">
+                                                            <ul class="list-inline">
+                                                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                                <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                                                            </ul>
+                                                        </div>
+                                                        <a href="https://www.chanel.com/us/fragrance/p/119430/n19-eau-de-parfum-spray/" class="btn btn-primary">contact supplier</a>
+                                                    </div>						
+                                                </div>
+                                            </div>						
+                                        </div>
+                                    </div>
+                                    <div class="item carousel-item">
+                                        <div class="row">
+                                            <div class="col-md-3">
+                                                <div class="thumb-wrapper">
+                                                    <span class="wish-icon"><i class="fa fa-heart-o"></i></span>
+                                                    <div class="img-box">
+                                                        <img src="images/lipsticks4.png" class="img-responsive img-fluid" alt="">
+                                                    </div>
+                                                    <div class="thumb-content">
+                                                        <h4>REVLON Lipsticks</h4>
+                                                        <p class="item-price"><strike>Kshs 1,800</strike> <span>1,500 Kshs</span></p>
+                                                        <div class="star-rating">
+                                                            <ul class="list-inline">
+                                                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                                <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                                                            </ul>
+                                                        </div>
+                                                        <a href="https://www.revlon.com/lips/lipstick/super-lustrous-lipstick?shade=really%20red/" class="btn btn-primary">contact supplier</a>
+                                                    </div>						
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <div class="thumb-wrapper">
+                                                    <span class="wish-icon"><i class="fa fa-heart-o"></i></span>
+                                                    <div class="img-box">
+                                                        <img src="images/foundation1.jpg" class="img-responsive img-fluid" alt="">
+                                                    </div>
+                                                    <div class="thumb-content">
+                                                        <h4>FENTY Beauty</h4>
+                                                        <p class="item-price"><strike>Kshs 4,500.00</strike> <span>3,000 Kshs</span></p>
+                                                        <div class="star-rating">
+                                                            <ul class="list-inline">
+                                                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                                <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                                                            </ul>
+                                                        </div>
+                                                        <a href="https://www.fentybeauty.com/pro-filtr/soft-matte-longwear-foundation/23176.html/" class="btn btn-primary">contact supplier</a>
+                                                    </div>						
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <div class="thumb-wrapper">
+                                                    <span class="wish-icon"><i class="fa fa-heart-o"></i></span>
+                                                    <div class="img-box">
+                                                        <img src="images/powder.jpg" class="img-responsive img-fluid" alt="">
+                                                    </div>
+                                                    <div class="thumb-content">
+                                                        <h4>FACE POWDER</h4>
+                                                        <p class="item-price"><strike>Kshs 2, 000</strike> <span>1,200 Kshs</span></p>
+                                                        <div class="star-rating">
+                                                            <ul class="list-inline">
+                                                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                                <li class="list-inline-item"><i class="fa fa-star-half-o"></i></li>
+                                                            </ul>
+                                                        </div>
+                                                        <a href="https://www.chanel.com/us/makeup/face/c/5x1x6x34/powder//" class="btn btn-primary">contact supplier</a>
+                                                    </div>						
+                                                </div>
+                                            </div>	
+                                            <div class="col-md-3">
+                                                <div class="thumb-wrapper">
+                                                    <span class="wish-icon"><i class="fa fa-heart-o"></i></span>
+                                                    <div class="img-box">
+                                                        <img src="images/JUVIAS.jpg" class="img-responsive img-fluid" alt="">
+                                                    </div>
+                                                    <div class="thumb-content">
+                                                        <h4>JUVIAS PALETTE</h4>
+                                                        <p class="item-price"><strike>Kshs 2,800</strike> <span>2,500 Kshs</span></p>
+                                                        <div class="star-rating">
+                                                            <ul class="list-inline">
+                                                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                                <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                                                            </ul>
+                                                        </div>
+                                                        <a href="https://www.juviasplace.com/collections/eyeshadow-palettes/products/masquerade-palette/" class="btn btn-primary">contact supplier</a>
+                                                    </div>						
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                             
+                                <a class="carousel-control left carousel-control-prev" href="#myBeauty" data-slide="prev">
+                                    <i class="fa fa-angle-left"></i>
+                                </a>
+                                <a class="carousel-control right carousel-control-next" href="#myBeauty" data-slide="next">
+                                    <i class="fa fa-angle-right"></i>
+                                </a>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>       
-        </div>
+        </div> 
 
         <div class="fitness">
             <div class="row">
@@ -259,5 +897,10 @@
             </div> 
         </div>
     </div>
+    <!-- js -->
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="   crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+    <script src="scripts.js"></script>
   </body>
   </html>
