@@ -283,8 +283,9 @@ hr{
 }
 
 @media screen and (max-width: 600px) {
-    .topnav .login-container {
+    .topnav .login-container{
     float: none;
+}
 }
 
 .login-container a, .login-container input[type=text], .login-container button {
@@ -314,7 +315,7 @@ hr{
 }
   
 #myInput {
-    border-box: box-sizing;
+    box-sizing: border-box;
     background-image: url('searchicon.png');
     background-position: 14px 12px;
     background-repeat: no-repeat;
