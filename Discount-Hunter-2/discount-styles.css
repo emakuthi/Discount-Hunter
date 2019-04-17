@@ -65,34 +65,40 @@ body{
 
 .electronics{
     grid-column: span 3 / auto;
-    height:500px;
+    height:auto;
     margin-left:20px;
+    margin-top:20px;
+}
+.fixtures{
+    grid-column: span 3 / auto;
+    height:auto;
+    margin-right:40px;
     margin-top:20px;
 }
 
 .apparel{
     grid-column: span 3 / auto;
-    height:500px;
+    height:auto;
     margin-right:40px;
     margin-top:20px;
 }
 
 .bProducts{
     grid-column: span 3 / auto;
-    height:500px;
+    height:auto;
     margin-left:20px;
     margin-top:20px;
 }
 
 .fitness{
     grid-column: span 3 / auto;
-    height:500px;
+    height:auto;
     margin-right:40px;
 }
 
 .kitchen{
     grid-column: span 3 / auto;
-    height:500px;
+    height:auto;
     margin-left:20px;
     margin-top:20px;
 }
@@ -435,4 +441,41 @@ hr{
     /*margin-left: -10%;
     margin-right: -10%;*/
 }
+#card-row{
+    grid-column: span 3 / auto;
+    height: auto;
+    margin-right:40px;
+    margin-top:20px;
+    margin-bottom: 20px;
+}
+#discountMenuBarHeader{
+    color:white;
+}  
+    
+#discountMenuBarHeader h1{
+    margin-left:38%;
+}
 
+.discountMenuBar{
+    padding-top:20px;
+    background-color:#163338;
+    width:100%;
+}
+
+.discountMenuBar .scrollmenu {
+    background-color: #163338;
+    overflow: auto;
+    white-space: nowrap;
+  }
+  
+.discountMenuBar .scrollmenu a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+  }
+  
+.discountMenuBar .scrollmenu a:hover {
+    background-color: crimson;
+  }
