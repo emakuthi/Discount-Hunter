@@ -7,9 +7,9 @@ function closeNav() {
   }
 
 $(document).ready(function(){
-		$(".wish-icon i").click(function(){
-			$(this).toggleClass("fa-heart fa-heart-o");
-	});
+  $(".wish-icon i").click(function(){
+      $(this).toggleClass("fa-heart fa-heart-o");
+  });
 });	
 
 /*  function myFunction() {
