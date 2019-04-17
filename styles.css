@@ -66,34 +66,44 @@ body{
 .electronics{
     grid-column: span 3 / auto;
     height:500px;
-    margin-left:20px;
+    margin-left:10px;
+    margin-top:20px;
+}
+
+.fixtures{
+    grid-column: span 3 / auto;
+    height:500px;
+    margin-left:10px;
     margin-top:20px;
 }
 
 .apparel{
     grid-column: span 3 / auto;
     height:500px;
-    margin-right:40px;
     margin-top:20px;
+}
+
+.apparel h3{
+    margin-right:50px;
 }
 
 .bProducts{
     grid-column: span 3 / auto;
     height:500px;
-    margin-left:20px;
+    margin-left:0px;
     margin-top:20px;
 }
 
 .fitness{
     grid-column: span 3 / auto;
     height:500px;
-    margin-right:40px;
+    margin-right:10px;
 }
 
 .kitchen{
     grid-column: span 3 / auto;
     height:500px;
-    margin-left:20px;
+    margin-left:10px;
     margin-top:20px;
 }
 
