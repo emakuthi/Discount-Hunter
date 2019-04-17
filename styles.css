@@ -284,7 +284,7 @@ hr{
 
 @media screen and (max-width: 600px) {
     .topnav .login-container {
-    float: none;
+    float: none;}
 }
 
 .login-container a, .login-container input[type=text], .login-container button {
