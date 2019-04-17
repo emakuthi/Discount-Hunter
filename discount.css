@@ -1,0 +1,31 @@
+#discountMenuBarHeader{
+    color:white;
+}  
+    
+#discountMenuBarHeader h1{
+    margin-left:38%;
+}
+
+.discountMenuBar{
+    padding-top:20px;
+    background-color:#163338;
+    width:100%;
+}
+
+.discountMenuBar .scrollmenu {
+    background-color: #163338;
+    overflow: auto;
+    white-space: nowrap;
+  }
+  
+.discountMenuBar .scrollmenu a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+  }
+  
+.discountMenuBar .scrollmenu a:hover {
+    background-color: crimson;
+  }
