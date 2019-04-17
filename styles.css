@@ -287,7 +287,6 @@ hr{
     float: none;
 }
 }
-
 .login-container a, .login-container input[type=text], .login-container button {
     float: none;
     display: block;
@@ -323,6 +322,7 @@ hr{
     padding: 14px 20px 12px 45px;
     border: none;
     border-bottom: 1px solid #ddd;
+    box-sizing: border-box;
 }
   
 #myInput:focus {
