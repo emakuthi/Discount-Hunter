@@ -168,7 +168,6 @@
 #beautyProducts {
 	background: #e2eaef;
 	font-family: "Open Sans", sans-serif;
-	height: 1000px;
 }
 #beautyProducts h2 {
 	color: #000;
@@ -194,14 +193,12 @@
 #beautyProducts .carousel {
 	margin: 50px auto;
 	padding: 0 70px;
-	overflow: visible;
-	height: 1000px;
 }
 #beautyProducts .carousel .item {
 	color: #747d89;
 	min-height: 325px;
-  text-align: center;
-	
+    text-align: center;
+	overflow: hidden;
 }
 #beautyProducts .carousel .thumb-wrapper {
 	padding: 25px 15px;
