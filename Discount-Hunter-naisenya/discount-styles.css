@@ -1,0 +1,485 @@
+body{ 
+    color:white;
+    font-family: 'Playfair Display', serif;
+    background-color:rgba(22, 51, 56,0.9)
+}
+
+.saleHunter{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 5px;
+}
+.header{
+    grid-column: span 3 / auto;
+    height:300px;
+    background-color:#163338;
+}
+
+.header #hamMenu{
+    margin-top:50px;
+}
+
+.header h1{
+    margin-top:120px;
+}
+.header h4{
+    margin-top:10px;
+    margin-left: 40%;
+}
+.adverts{
+    grid-column: span 2 / auto;
+    height:300px;
+    margin-top:30px;
+    background-color:#163338;
+}
+.adverts h3{
+    margin-left:35%;
+}
+
+.advertItems{
+    grid-column: span 2 / auto;
+    height:100px;
+    background-color:#163338;
+}
+.advertItems h3{
+    margin-left:35%;
+}
+
+.discountCategories{
+    grid-row: span 2 / auto;
+    height:505px;
+    width:400px;
+    background-color:#163338;
+    margin-top:30px;
+}
+
+.discountCategories a:hover{
+    color:crimson;
+}
+
+.movingAdvert{
+    grid-column: span 3 / auto;
+    height:300px;
+    margin-left:20px;
+}
+
+.electronics{
+    grid-column: span 3 / auto;
+    height:auto;
+    margin-left:20px;
+    margin-top:20px;
+}
+.fixtures{
+    grid-column: span 3 / auto;
+    height:auto;
+    margin-right:40px;
+    margin-top:20px;
+}
+
+.apparel{
+    grid-column: span 3 / auto;
+    height:auto;
+    margin-right:40px;
+    margin-top:20px;
+}
+
+.bProducts{
+    grid-column: span 3 / auto;
+    height:auto;
+    margin-left:20px;
+    margin-top:20px;
+}
+
+.fitness{
+    grid-column: span 3 / auto;
+    height:auto;
+    margin-right:40px;
+}
+
+.kitchen{
+    grid-column: span 3 / auto;
+    height:auto;
+    margin-left:20px;
+    margin-top:20px;
+}
+
+.dealsWeek{
+    grid-column: span 3 / auto;
+    height:500px;
+    margin-right:20px;
+    margin-top:20px;
+}
+
+.storeArea{
+    grid-column: span 3 / auto;
+    height:500px;
+    margin-left:20px;
+    margin-top:20px;
+    margin-bottom:20px;
+}
+
+.discountCategories h3{
+    margin-left:20px;
+    margin-top:40px;
+    margin-bottom:30px;
+    
+}
+.discountCategories ul li{
+    margin-left:10px;
+    font-size:16px;
+}
+
+.discountCategories a{
+    color:white;
+}
+
+.discountCategories hr{
+    margin-top:10px;
+    width:200px;
+    margin-left:-10px;
+}
+
+hr{
+    border: 1px solid grey;
+    margin-top:40px;
+}
+
+.subscribe{
+    grid-column: span 3 / auto;
+    background-image: url(images/slider7.jpg);
+    background-color:#163338;
+    height:400px;
+    text-align:center;
+    padding:100px;
+}
+
+.footer{
+    grid-column: span 3 / auto;
+    height:300px;
+    background-color:#163338;
+    color:white;   
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color:#163338;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 18px;
+    color: crimson;
+    display: block;
+    transition: 0.3s;
+  }
+
+  .sidenav h3{
+      margin-left:35px;
+      margin-bottom: 20px;
+      color:crimson;
+  }
+
+  .sidenav h3:hover{
+   color:white;
+}
+  
+  .sidenav a:hover {
+    color: white;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+
+#icons{
+    padding-top:30px;
+    color:white;
+    margin-left:8%;
+}
+
+#icons .col-md-2{
+    padding-left:50px;
+}
+
+#icons a {
+    position: relative;
+    width:60px;
+    height:60px;
+    display:block;
+    text-align:center;
+    margin:0 10px;
+    border-radius: 50%;
+    padding: 6px;
+    box-sizing: border-box;
+    text-decoration:none;
+    box-shadow: 0 10px 15px rgba(0,0,0,0.3);
+    background: linear-gradient(0deg, #ddd, #fff);
+    transition: .5s;
+   }
+
+#icons a .fa {
+    width: 100%;
+    height:100%;
+    display:block;
+    background: linear-gradient(0deg, #fff, #ddd);
+    border-radius: 50%;
+    line-height: calc(60px - 12px);
+    font-size:24px;
+    color:crimson;
+    transition: .5s;
+   }
+
+#year p{
+    padding-top:50px;
+}
+
+.footer p{
+    font-size:16px;
+    text-align:center;
+}
+
+.footer h3{
+    text-align:center;
+    margin-top:50px;
+}
+
+.login-container {
+    float: right;
+    margin-top:30px;
+}
+
+.login-container button {
+    float: right;
+    padding: 6px 10px;
+    /*margin-top: 30px;*/
+    margin-right: 16px;
+    background-color: crimson;
+    color: white;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+    height:26px;
+}
+
+.login-container p{
+    text-align: center;
+}
+
+
+.login-container button:hover {
+    background-color: #163338;
+}
+
+@media screen and (max-width: 600px) {
+    .topnav .login-container {
+    float: none;}
+}
+
+.login-container a, .login-container input[type=text], .login-container button {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+}
+
+.login-container input[type=text] {
+    border: 1px solid #ccc;  
+}
+
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+  
+.dropbtn:hover, .dropbtn:focus {
+    background-color: #3e8e41;
+}
+  
+#myInput {
+    border-box: box-sizing;
+    background-image: url('searchicon.png');
+    background-position: 14px 12px;
+    background-repeat: no-repeat;
+    font-size: 16px;
+    padding: 14px 20px 12px 45px;
+    border: none;
+    border-bottom: 1px solid #ddd;
+}
+  
+#myInput:focus {
+    outline: 3px solid #ddd;
+}
+  
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f6f6f6;
+    min-width: 230px;
+    overflow: auto;
+    border: 1px solid #ddd;
+    z-index: 1;
+}
+  
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+  
+.dropdown a:hover {background-color: #ddd;
+}
+  
+/* .show {
+    display: block;
+} */
+
+/*#advertisements .carousel-item {
+    position: relative;
+    display: none;
+    float: left;
+    width: 100%;
+    height:400px;
+    margin-right: -100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    transition: -webkit-transform 0.6s ease-in-out;
+    transition: transform 0.6s ease-in-out;
+    transition: transform 0.6s ease-in-out, -webkit-transform 0.6s ease-in-out;
+}
+      
+#advertisements .carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    background-size: cover;          
+}
+
+#advertisements .container-dress{
+    display: flex;
+}
+
+#advertisements .card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.25rem;
+    margin-left: 20px;
+    box-shadow: 5px 10px 18px #888888;
+    box-sizing: content-box;
+}*/
+
+.form-group {
+    width: 60%;
+    margin: auto;
+    margin-left:50%;
+}
+  
+.form-control {
+    border: 0;
+    border-radius: 2px;
+}
+  
+.form-control::-moz-placeholder {
+    color: white;
+    opacity: 1;
+}
+  
+.form-control:-ms-input-placeholder {
+    color: white;
+}
+  
+.form-control::-webkit-input-placeholder {
+    color: white;
+}
+  
+#output {
+    font-size: 20px;
+}
+
+.mailchimp {
+    text-align: center;
+    color: whitesmoke;
+    /*background-image: url(images/slider7.jpg);*/
+    background-size: cover;
+    /*margin-left: -10%;
+    margin-right: -10%;*/
+}
+#card-row{
+    grid-column: span 3 / auto;
+    height: auto;
+    margin-right:40px;
+    margin-top:20px;
+    margin-bottom: 20px;
+}
+#discountMenuBarHeader{
+    color:white;
+}  
+    
+#discountMenuBarHeader h1{
+    margin-left:38%;
+}
+
+.discountMenuBar{
+    padding-top:20px;
+    background-color:#163338;
+    width:100%;
+}
+
+.discountMenuBar .scrollmenu {
+    background-color: #163338;
+    overflow: auto;
+    white-space: nowrap;
+  }
+  
+.discountMenuBar .scrollmenu a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+  }
+  
+.discountMenuBar .scrollmenu a:hover {
+    background-color: crimson;
+  }
+  /* The "show" class is added to the filtered elements */
+.show {
+  display: block;
+}
